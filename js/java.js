@@ -1,0 +1,9 @@
+burger=document.querySelector('.burger')
+nav=document.querySelector('.plm')
+list=document.querySelector('.mnb')
+right=document.querySelector('.ioy')
+burger.addEventListener('click',()=>{
+    nav.classList.toggle('high')
+    list.classList.toggle('vis')
+    right.classList.toggle('vis')
+})

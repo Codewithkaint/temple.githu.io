@@ -1,0 +1,437 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Lato&family=Lobster&family=Playball&family=Ramaraja&family=Red+Hat+Mono:wght@300&family=Tapestry&family=Ubuntu:ital,wght@1,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+nav {
+    align-items: center;
+
+    width: 100%;
+    display: flex;
+    border-bottom: 5px solid rgba(0, 0, 0, 0.5);
+}
+
+ul {
+    align-items: center;
+    display: flex;
+
+}
+
+.lo {
+    width: 7%;
+    margin: 10px;
+}
+
+nav ul li {
+    font-size: 1.5rem;
+    list-style: none;
+    margin: 10px 50px;
+
+
+}
+
+ul li a {
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    transition: all .3s ease-in-out;
+
+}
+
+.ff {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+
+ul li a:hover {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+h1 a {
+    text-decoration: none;
+    font-size: 1.7rem;
+    text-align: right;
+    margin-right: 20px;
+    color: white;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+h1 a:hover {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+
+.back1 {
+    background: rgba(0, 0, 0, 0.5) url('./op.jpg') no-repeat center/cover;
+    background-size: cover;
+    background-blend-mode: darken;
+
+    border-radius: 15px;
+}
+
+.back2 {
+    background: rgba(0, 0, 0, 0.4) url('./ppo.jpg') no-repeat center/cover;
+    background-size: cover;
+    background-blend-mode: darken;
+
+}
+
+.head {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 2rem;
+    text-decoration: underline;
+}
+
+.burger {
+    display: none;
+    position: absolute;
+    top: 0.7%;
+    right: 5%;
+    border: 5px solid white;
+    padding: 3px;
+    margin: 10px;
+}
+
+.lines {
+    background-color: white;
+    width: 25px;
+    margin: 5px;
+    height: 3px;
+}
+
+.first {
+    width: 100%;
+    height: 80vh;
+}
+
+.second {
+    justify-content: space-evenly;
+    padding: 40px;
+    display: flex;
+    width: 100%;
+
+}
+
+.para {
+    width: 70%;
+    line-height: 2rem;
+    font-weight: bold;
+    padding: 30px;
+    font-size: 2rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.img {
+
+
+    height: 75vh;
+    width: 45%;
+
+    margin: auto 10px;
+
+}
+
+.img img {
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.third {
+    justify-content: space-evenly;
+    padding: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+.gade {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7) url('./hio.jpg') no-repeat center/cover;
+    background-size: cover;
+    background-blend-mode: darken;
+    padding: 40px;
+    border-radius: 15px;
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.type {
+    width: 70%;
+    line-height: 2.4rem;
+    font-weight: bold;
+    padding: 3%;
+    font-size: 2rem;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.type h1 {
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-decoration: underline;
+
+}
+
+.four {
+    background: rgba(0, 0, 0, 0.7) url('./op.jpg') no-repeat center/cover;
+    background-size: cover;
+    background-blend-mode: darken;
+    padding: 3%;
+    width: 100%;
+    margin-top: 3%;
+
+}
+
+.box {
+    margin: 20px;
+    display: inline-block;
+    height: 60vh;
+    width: 45%;
+}
+
+.box img {
+    border-radius: 30px;
+    width: 100%;
+    height: 100%;
+}
+
+.cont {
+    margin-top: 20px;
+    background: rgba(0, 0, 0, 0.7) url('./cc.png') no-repeat center;
+    background-size: cover;
+    background-blend-mode: darken;
+    height: 80vh;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+.icon1 {
+    margin: 30px auto;
+    background-color: white;
+    
+    font-weight: bold;
+    border: 5px solid black;
+    padding: 15px;
+    border-radius: 20px;
+    text-align: center;
+    width: 70%;
+    font-size: 1.5rem;
+cursor: pointer;
+
+}
+.icon1 a{ font-size: 1.5rem;
+    color: black;
+    text-decoration: none;
+}
+
+.icon2 {
+    margin: 30px auto;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border: 5px solid black;
+    padding: 15px;
+    cursor: pointer;
+
+    border-radius: 20px;
+    width: 100%;
+    font-size: 1.5rem;
+}
+
+
+
+footer {
+    margin-top: 7%;
+    width: 100%;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 1.7rem;
+
+}
+
+.pow {
+    margin: 10px 20px;
+    align-items: center;
+    display: flex;
+    font-size: 1.5rem;
+    width: 40%;
+
+}
+
+.pow img {
+    margin-left: 10px;
+    width: 10%;
+}
+
+@media only screen and (max-width:1150px) {
+    nav {
+        flex-direction: column;
+
+
+    }
+
+    nav ul {
+        flex-direction: column;
+        margin: 15px;
+    }
+
+    nav ul li {
+        margin: 15px 0px;
+    }
+
+    ul li a {
+        font-size: 1.3rem;
+    }
+
+    .lo {
+        width: 15%;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    h1 a {
+        font-size: 1.3rem;
+        margin: 10px;
+
+    }
+
+    .ioy {
+        margin-bottom: 20px;
+    }
+
+    .high {
+        height: 70px;
+    }
+
+    .vis {
+        opacity: 0;
+    }
+
+    .second,
+    .third {
+        flex-direction: column-reverse;
+        justify-content: center;
+        padding: 10px;
+        margin: 15px 0px;
+    }
+
+    .para {
+        width: 100%;
+
+        padding: 10px;
+        font-size: 1.3rem;
+
+    }
+
+    .head {
+        font-size: 1.5rem;
+    }
+
+    .img {
+
+
+        width: 85%;
+
+        margin: 2px auto;
+
+    }
+
+    .gade {
+        padding: 10px;
+        border-radius: 15px;
+        margin-top: 3%;
+    }
+
+    .type {
+        width: 100%;
+        line-height: 2rem;
+
+        padding: 10px;
+        font-size: 1.3rem;
+
+        color: white;
+
+        margin-bottom: 15px;
+    }
+
+    .four {
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .box {
+        margin: 20px 10px;
+        display: inline-block;
+        height: 40vh;
+        width: 55%;
+    }
+
+    .cont {
+        padding: 10px;
+        height: 80vh;
+    }
+
+    .icon1 a,
+    .icon2 {
+        padding: 10px 4px;
+
+        margin: 15px auto;
+        font-size: 14px;
+    }
+
+    footer {
+        padding: 15px;
+        font-size: 1.3rem;
+
+        flex-direction: column;
+
+    }
+
+    .pow {
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        font-size: 1.2rem;
+        margin-bottom: 20px;
+
+    }
+
+    .pow img {
+        margin-top: 10px;
+        width: 40%;
+    }
+}
