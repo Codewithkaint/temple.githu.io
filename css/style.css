@@ -232,7 +232,16 @@ h1 a:hover {
 
 
 }
+.ty { position: absolute;
+    top: 3.6%;
+    right: 30%;
 
+}
+.ty p{font-weight: bold;
+    color: rgb(255, 248, 248);
+    font-size: 1.5rem;
+    display: none;
+}
 .icon1 {
     margin: 30px auto;
     background-color: white;
@@ -301,7 +310,11 @@ footer {
 
     }
 
+    .ty p{
+        display: block;
+    }
     nav ul {
+        padding-top: 50px;
         flex-direction: column;
         margin: 15px;
     }
